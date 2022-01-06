@@ -29,7 +29,7 @@ font-family: 'Poppins', sans-serif;
     margin-top: 100px;
 }
 
-#content-container button{
+.btn{
     background-color: #FF5959;
     color: white;
     border: none;
@@ -76,15 +76,15 @@ font-family: 'Poppins', sans-serif;
     margin-right: 40px;
 }
 
-#mission img{
+.mission-img{
     width: 126px;
 }
 
-#mission h3{
+.mission-h3{
     font-size: 24px;
 }
 
-#mission p{
+.mission-p{
     font-size: 16px;
 }
 
@@ -97,36 +97,11 @@ font-family: 'Poppins', sans-serif;
 
 }
 
-#vision img{
-    width: 126px;
-}
-
-#vision h3{
-    font-size: 24px;
-}
-
-#vision p{
-    font-size: 16px;
-}
-
 #goals{
     border-radius: 26px;
     background-color: #FFF4D6;
     padding: 20px;
 }
-
-#goals img{
-    width: 126px;
-}
-
-#goals h3{
-    font-size: 24px;
-}
-
-#goals p{
-    font-size: 16px;
-}
-
 
 /* mission section ends */
 
@@ -155,16 +130,6 @@ font-family: 'Poppins', sans-serif;
 #develop-content p{
     font-size: 18px;
 }
-
-#develop-content button{
-    background-color: #FF5959;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 23px;
-}
 /* develop section ends */
 
 /* community section starts */
@@ -191,62 +156,47 @@ font-family: 'Poppins', sans-serif;
 #community-content p{
     font-size: 18px;
 }
-
-#community-content button{
-    background-color: #FF5959;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 23px;
-}
 /* community section ends */
 
-/* corona application starts */
+/* works  starts */
 
-#corona-section{
-    margin-top: 100px;
+#works-section{
+    margin-bottom: 40px;
 }
 
-#corona-headline{
-    text-align: center;
-    font-size: 48px;
+#works-section h2{
+text-align: center;
+font-size: 48px;
 }
 
-#corona-headline span{
-    color: orange;
-}
-
-#corona-image img{
-    width: 338px;
-}
-
-#corona-content h2{
-    font-size: 48px;
-}
-
-#corona-content h2 span{
-    color: orange;
-}
-
-#corona-container{
-    margin-top: 100px;
+.works-container{
     display: flex;
-    justify-content: space-evenly;
 }
 
-#corona-content button{
-    background-color: #FF5959;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 23px;
+.my-works{
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-/* corona application ends */
+.my-works img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.my-works h4{
+    font-size: 18px;
+}
+
+.ui, .web{
+    margin-right: 20px;
+}
+
+/* works  ends */
 
 /* footer */
 #footer{
